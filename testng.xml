@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
+    <test name="CRUK Donation Tests" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="CRUK.test.testRunner" />
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="44547" started-at="2021-11-19T19:29:29 GMT" finished-at="2021-11-19T19:30:14 GMT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CRUK.test.testRunner@23e028a9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="CRUK Donation Tests" duration-ms="44547" started-at="2021-11-19T19:29:29 GMT" finished-at="2021-11-19T19:30:14 GMT">
+      <class name="CRUK.test.testRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CRUK.test.testRunner@23e028a9]" name="setUpClass" is-config="true" duration-ms="974" started-at="2021-11-19T19:29:29 GMT" finished-at="2021-11-19T19:29:30 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51e2adc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CRUK.test.testRunner@23e028a9]" name="runScenario" duration-ms="26461" started-at="2021-11-19T19:29:30 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-19T19:29:57 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Make donation on CRUK"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test the Donation Functionality on CRUK]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CRUK.test.testRunner@23e028a9]" name="runScenario" duration-ms="16003" started-at="2021-11-19T19:29:57 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-19T19:30:13 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Empty values on Donation Amount page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test the Donation Functionality on CRUK]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:CRUK.test.testRunner@23e028a9]" name="tearDownClass" is-config="true" duration-ms="1041" started-at="2021-11-19T19:30:13 GMT" finished-at="2021-11-19T19:30:14 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CRUK.test.testRunner -->
+    </test> <!-- CRUK Donation Tests -->
+  </suite> <!-- Suite1 -->
+</testng-results>
