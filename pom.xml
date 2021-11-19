@@ -99,7 +99,7 @@
                             <projectName>CRUK Donation Test</projectName>
                             <outputDirectory>${project.build.directory}/site/cucumber-reports</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
-                            <skippedFails>true</skippedFails>
+                            <skippedFails>false</skippedFails>
                             <buildNumber>000</buildNumber>
                         </configuration>
                     </execution>
