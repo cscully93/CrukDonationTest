@@ -1,4 +1,4 @@
-@donation
+@donate
 Feature: Test the Donation Functionality on CRUK
 
   @positive

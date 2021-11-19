@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = "classpath:features/",
 		glue = "steps",
-		tags = "@donation",
+		tags = "@donate",
 		publish = true,
 		plugin  = {"pretty",
 				"html:target/cucumber-pretty",
