@@ -21,8 +21,11 @@ To run a tests on the prgoram you can use the following methods:
 
   ![image](https://user-images.githubusercontent.com/60076315/142760155-3a7629ef-faa0-427c-80b2-a75fbcd31ae1.png)
 
-  Additionally using the maven verify goal will generate a Cucumber Report based on the test execution this can be viewed in the following folder **target/site** and will give an   overview of the tests ran, successful tests, failed tests (generating a screenshot and logs on why the test failed), time taken to run tests and useful graphs too.
+  Additionally using the maven verify goal will generate a Cucumber Report based on the test execution this can be viewed in the following folder **target/site/cucumber-reports** and by opening the **feature-overview.html** in your broweser will give an overview of the tests ran, successful tests, failed tests (generating a screenshot and logs on why the test failed), time taken to run tests and useful graphs too.
+  
 **Cucumber Reports**
+
+![image](https://user-images.githubusercontent.com/60076315/142760990-d8787603-36a9-4c5b-9fd5-3ffa83e6deea.png)
 ![image](https://user-images.githubusercontent.com/60076315/142760254-3375e723-de6b-405a-9015-508ecf51eec8.png)
 
 **Successful Test**
