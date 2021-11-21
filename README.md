@@ -10,7 +10,7 @@ Before Attempting to run tests:
 
 To run a tests on the prgoram you can use the following methods:
 
-1. If you have the Cucumber for Java on your IDE such as Intellij simple navigate to to the ***Donation.feature*** and click green arrow either on the entire Feature or Scenario and run the test(s)
+1. If you have the Cucumber for Java plugin on your IDE such as Intellij simple navigate to to the ***Donation.feature*** and click green arrow either on the entire Feature or Scenario and run the test(s)
 ![image](https://user-images.githubusercontent.com/60076315/142759834-642ba851-15b5-484a-80f2-d7a6f1dac5b8.png)
 
 2. You can also run the test suite from the test runner file ***src/test/java/CRUK.test/testRunner***, by specifying that the tag that you want to run i.e. (@donate,@positive,@negative) and running the test by clicking the green arrow
